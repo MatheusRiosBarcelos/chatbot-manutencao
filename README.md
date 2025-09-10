@@ -13,6 +13,7 @@ Este projeto é um **chatbot inteligente** desenvolvido para auxiliar na anális
 - 🔍 Identificação automática do equipamento mencionado na pergunta.
 - 🧠 Geração de respostas com base em histórico técnico.
 - 🌐 Interface amigável via Streamlit.
+- 🧩 Foi feito com uma tabela Excel para prova de conceito então existe a **Possibilidade de integração com bancos de dados mais robustos** como **PostgreSQL**, **MySQL** ou **SQLite** e outros, permitindo escalabilidade e persistência dos dados.
 
 ---
 
