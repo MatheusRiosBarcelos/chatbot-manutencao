@@ -14,7 +14,7 @@ def carregar_dados():
     return pd.read_excel('manutencao.xlsx')
 df = carregar_dados()
 
-llm = ChatGroq(api_key=os.getenv("GROQ_API_KEY"), model="mixtral-8x7b-32768")
+llm = ChatGroq(api_key=os.getenv("GROQ_API_KEY"), model="llama-3.3-70b-versatile")
 
 def extrair_nome_equipamento(pergunta):
     prompt_extracao = f"""
